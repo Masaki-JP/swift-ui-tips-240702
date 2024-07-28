@@ -6,16 +6,16 @@ struct ContentView: View {
 
     var body: some View {
         PersonList()
-        .safeAreaInset(edge: .bottom) {
-            HStack(spacing: 0) {
-                if isScrolling { Spacer() }
-                getCardsButton.padding(.trailing, isScrolling ? 15 : 0)
+            .safeAreaInset(edge: .bottom) {
+                HStack(spacing: 0) {
+                    if isScrolling { Spacer() }
+                    getCardsButton.padding(.trailing, isScrolling ? 15 : 0)
+                }
             }
-        }
-        .onPreferenceChange(IsScrollingPreferenceKey.self) { value in
-            isScrolling = value
-        }
-        .animation(.easeInOut(duration: 0.1), value: isScrolling)
+            .onPreferenceChange(IsScrollingPreferenceKey.self) { value in
+                isScrolling = value
+            }
+            .animation(.easeInOut(duration: 0.1), value: isScrolling)
     }
 
     var getCardsButton: some View {

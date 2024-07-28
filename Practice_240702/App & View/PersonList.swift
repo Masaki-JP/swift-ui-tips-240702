@@ -19,15 +19,11 @@ struct PersonList: View {
             .background {
                 GeometryReader { geometry in
                     Color.clear
-                        .preference(
-                            key: VerticalOffsetPreferenceKey.self,
-                            value: geometry.frame(in: .global).minY
-                        )
+                        .onChange(of: geometry.frame(in: .global).minY) { _, _ in
+                            scrollObserver.run()
+                        }
                 }
             }
-        }
-        .onPreferenceChange(VerticalOffsetPreferenceKey.self) { _ in
-            scrollObserver.run()
         }
         .preference(
             key: IsScrollingPreferenceKey.self,

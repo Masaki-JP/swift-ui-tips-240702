@@ -13,7 +13,6 @@
 		4C9777912C3322F900868B6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9777902C3322F900868B6C /* ContentView.swift */; };
 		4C9777932C3322FA00868B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9777922C3322FA00868B6C /* Assets.xcassets */; };
 		4C9777962C3322FA00868B6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9777952C3322FA00868B6C /* Preview Assets.xcassets */; };
-		4C97779D2C3323AC00868B6C /* VerticalOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97779C2C3323AC00868B6C /* VerticalOffsetPreferenceKey.swift */; };
 		4C97779F2C3323E100868B6C /* IsScrollingPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97779E2C3323E100868B6C /* IsScrollingPreferenceKey.swift */; };
 		4C9777A12C3323FF00868B6C /* ScrollObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9777A02C3323FF00868B6C /* ScrollObserver.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 		4C9777902C3322F900868B6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C9777922C3322FA00868B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C9777952C3322FA00868B6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4C97779C2C3323AC00868B6C /* VerticalOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 		4C97779E2C3323E100868B6C /* IsScrollingPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsScrollingPreferenceKey.swift; sourceTree = "<group>"; };
 		4C9777A02C3323FF00868B6C /* ScrollObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				4C9777A02C3323FF00868B6C /* ScrollObserver.swift */,
-				4C97779C2C3323AC00868B6C /* VerticalOffsetPreferenceKey.swift */,
 				4C97779E2C3323E100868B6C /* IsScrollingPreferenceKey.swift */,
 				4C46F9552C33CC6E00547832 /* Person.swift */,
 			);
@@ -171,7 +168,6 @@
 				4C46F9562C33CC6E00547832 /* Person.swift in Sources */,
 				4C9777A12C3323FF00868B6C /* ScrollObserver.swift in Sources */,
 				4C46F95A2C33CD0200547832 /* PersonList.swift in Sources */,
-				4C97779D2C3323AC00868B6C /* VerticalOffsetPreferenceKey.swift in Sources */,
 				4C9777912C3322F900868B6C /* ContentView.swift in Sources */,
 				4C97779F2C3323E100868B6C /* IsScrollingPreferenceKey.swift in Sources */,
 				4C97778F2C3322F900868B6C /* Practice_240702App.swift in Sources */,
